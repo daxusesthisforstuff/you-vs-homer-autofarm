@@ -1,0 +1,11 @@
+local domer = true
+while domer do
+local pos = CFrame.new(-33.0938225, 210.400009, 111.343933, 0.342042685, -0, -0.939684391, 0, 1, -0, 0.939684391, 0, 0.342042685)
+local plrs = game.Players
+local lpr = plrs.LocalPlayer
+local char = lpr.Character
+local torso = char.Torso
+local pos2 = torso.CFrame
+pos2 = pos
+wait(3)
+end
