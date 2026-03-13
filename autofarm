@@ -1,7 +1,7 @@
 local domer = true
 while domer do
 local pad = workspace.lobby.Obby.build.Wraps01.build.Winpad
-local pos = pad.CFrame
+local pos = pad.Position
 local plrs = game.Players
 local lpr = plrs.LocalPlayer
 local char = lpr.Character
