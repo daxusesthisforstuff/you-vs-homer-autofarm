@@ -1,6 +1,7 @@
 local domer = true
 while domer do
-local pos = CFrame.new(32, 174.400345, 161, -0.987686276, 0, 0.156449571, 0, 1, 0, -0.156449571, 0, -0.987686276)
+local pad = workspace.lobby.Obby.build.Wraps01.build.Winpad
+local pos = pad.CFrame
 local plrs = game.Players
 local lpr = plrs.LocalPlayer
 local char = lpr.Character
