@@ -5,7 +5,6 @@ local plrs = game.Players
 local lpr = plrs.LocalPlayer
 local char = lpr.Character
 local torso = char.Torso
-local pos2 = torso.CFrame
-pos2 = pos
+torso.CFrame = pos
 wait(3)
 end
